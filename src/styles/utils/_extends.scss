@@ -1,0 +1,56 @@
+%poppins {
+  font-family: Poppins, sans-serif;
+}
+
+%open-sans {
+  font-family: Open Sans, sans-serif;
+}
+
+%poppins-big-bold {
+  @extend %poppins;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19.5px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+%big-texts {
+  @extend %poppins;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+%padding-inline {
+  padding-inline: 20px;
+
+  @include onTablet {
+    padding-inline: 40px;
+  }
+
+  @include onSmallDesk {
+    padding-inline: 54px;
+  }
+}
+
+%open-sans-small-text {
+  @extend %open-sans;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+%poppins-buttons {
+  @extend %poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22.5px;
+  text-align: center;
+}
+
+%open-sans-big {
+  @extend %open-sans;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+}

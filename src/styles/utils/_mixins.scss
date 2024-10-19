@@ -1,0 +1,31 @@
+
+@mixin hover($_property, $_toValue) {
+  transition: #{$_property} 0.3s;
+  &:hover {
+    #{$_property}: $_toValue;
+  }
+}
+
+@mixin onTablet {
+  @media screen and (min-width: 640px) {
+    @content;
+  }
+}
+
+@mixin onSmallDesk {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin onBigDesk {
+  @media screen and (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin onLargeDesk {
+  @media screen and (min-width: 2560px) {
+    @content;
+  }
+}

@@ -1,4 +1,17 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+# Description
+This website was created for Air Strategy Agency to help them with providing their services to potential clients.
+
+# Technologies
+For this website were used
+1) Typescript;
+2) Html and SCSS;
+
+# Source
+Project design:
+[Design](https://www.figma.com/file/dY3izAm0Vspsmra4lQWQIP/Bakerlab-FE-students?node-id=0%3A1).
+
+# Extra instructions
+There is no instructions for this website, just explore it.
+
+
+
